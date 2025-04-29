@@ -7,5 +7,13 @@ def reverse(list):
     return reverse
 
 new_list = reverse(["car", "cycle", "bike", "motorcycle", "twowheeler", "automobile", "bus", "truck"])
-print(new_list)
+print(new_list) # this function method 
+
+# simple method
+
+new_list = (["car", "cycle", "bike", "motorcycle", "twowheeler", "automobile", "bus", "truck"])
+reverse = new_list[::-1]
+print(reverse)
+
+
     

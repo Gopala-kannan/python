@@ -13,4 +13,17 @@ shops = {
         "scale" : 20
 }
 
-maximum_dict(shops)
+maximum_dict(shops)   #function method
+
+# simple method
+
+shops = {
+        "books" : 356,
+        "notes" : 200,
+        "pen"   : 15,
+        "pencle": 10,
+        "scale" : 20
+}
+
+print(max(shops, key=shops.get)) # highlest value
+print(min(shops, key=shops.get)) # smallest value
